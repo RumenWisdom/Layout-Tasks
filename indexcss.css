@@ -1,4 +1,4 @@
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px) and (min-width:376px){
   
 * {
     margin: 0;
@@ -63,15 +63,7 @@
     margin-top: 70%;
     margin-right: 40px;
   }
-  a:active{
-    text-align: center;
-    border: 1px solid transparent;
-    border-radius: 20px;
-    padding: 8px 18px;
-    margin-top: 70%;
-    margin-right: 40px;
-  }
-  #sed {
+   #sed {
     color: hsl(31, 77%, 52%);
     text-decoration: none;
   }
@@ -93,6 +85,65 @@
 @media screen and (max-width:375px) {
  body, main, div{ flex-direction: column;
     
+  }
+  .box1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    line-height: 90px;
+    margin-top: 1px;
+  }
+  
+  p {
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .box2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+  }
+  
+  .box3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .btns {
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 8px 18px;
+    margin-top: 70%;
+    margin-right: 40px;
+  }
+   #sed {
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+  }
+  #suv {
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+  }
+  #lux {
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+  }
+  
+  img {
+    margin-bottom: 7%;
   }
 
 }
