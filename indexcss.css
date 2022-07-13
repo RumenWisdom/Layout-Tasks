@@ -96,7 +96,7 @@
   #lux:hover{
     color:hsl(0, 0%, 95%);
   }
-  
+
 }
 
   
@@ -153,24 +153,45 @@
     margin-top: 70%;
     margin-right: 40px;
   }
+
+  .btns:hover{
+    color:hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    text-decoration: none;
+    background: transparent;
+  }
+  
    #sed {
     color: hsl(31, 77%, 52%);
     text-decoration: none;
   }
 
+  #sed:hover{
+    color:hsl(0, 0%, 95%);
+  }
   
   #suv {
     color: hsl(184, 100%, 22%);
     text-decoration: none;
   }
+  #suv:hover{
+    color:hsl(0, 0%, 95%);
+  }
+
   #lux {
     color: hsl(179, 100%, 13%);
     text-decoration: none;
   }
+
+  #lux:hover{
+    color:hsl(0, 0%, 95%);
+  }
+  
+}
+
   
   img {
     margin-bottom: 7%;
   }
-
-}
+  
   
